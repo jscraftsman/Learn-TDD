@@ -1,0 +1,8 @@
+{
+  "name": "learn-tdd",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple JavaScript excercise intended to those where are new to TDD.",
+  "author": "Gervel Giva",
+  "license": "ISC"
+}
