@@ -125,28 +125,36 @@ this can be stored as an Array:
 # JavaScript Syntax
 
 1. How to declare a variable
-   - `let variable_name = value`
-   - value can be any type (boolean, int, string, etc)
-2. How to declare an object in JavaScript
+   ```
+   let variable_name = some_value;
+   // some_value -> can be any type (boolean, int, string, etc)
+   ```
+2. How to declare an object
 
    ```
    let object_name = {
-       variable_name: value,
-       function_name: function(parameter_name) {
+       // Value is assigned using colon ":" character instead of equal "="
+       variable_name : value,
+
+       // MUST BE SEPARATED BY COMMA FOR NEW ATTRIBUTES TO BE ADDED.
+       // MUST NOT END WITH A SEMICOLON ";"
+
+       function_name : function(parameter_name) {
            parameter_name = new_value;
-           return output_value
+           return output_value;
        }
    }
 
-   ///////////
-   // Usage //
-   ///////////
+   /////////////
+   /// Usage ///
+   /////////////
 
-   // Variable
+   // Variable usage
    object_name.variable_name; // Allows you to get/set the value of this variable.
 
-   // Function
-   object_name.function_name('parameter') // Invokes this function and pass a parameter. If the function has a return statement, you can store the return value to a variable
+   // Function usage
+   object_name.function_name('parameter') // Invokes this function and pass a parameter.
+   // If the function has a return value, you can store the return value to a variable.
    ```
 
 3. Add a variable/object to the global environment
@@ -177,7 +185,7 @@ this can be stored as an Array:
    let array_one = [1, 2, 3];
    let array_two = [1, 2, 3];
 
-   // INCORRECT COMPARISON. This comparison is not strict and will not compare the values of the array
+   // INCORRECT COMPARISON. This comparison is not strict and will not compare the values of the two arrays
    assert.equal(array_one, array_two); // Returns false;
 
    // CORRECT USAGE
