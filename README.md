@@ -44,6 +44,10 @@ A simple JavaScript excercise intended to those where are new to TDD.
     - Example:
       - Usage: App.divide(1, 2);
       - Returns: 0.5
+12. Create a copy of js/src/app.js and rename the file to js/src/app-YOUR_FIRSTNAME.js
+13. Create a copy of js/test/app.test.js and rename the file to js/src/app-YOUR_FIRSTNAME.test.js
+
+**Note**: Send your output files (via email) to the instructor after the session
 
 ## [Intermediate] Exercise - Vending Machine (Change Calculator)
 
@@ -75,6 +79,10 @@ A simple JavaScript excercise intended to those where are new to TDD.
      difference = 388                           // £3.88
      change = [200, 100, 50, 20, 10, 5, 2, 1]   // £2, £1, 50p, 20p, 10p, 5p, 2p, 1p
      ```
+5. Create a copy of js/src/app.js and rename the file to js/src/app-YOUR_FIRSTNAME.js
+6. Create a copy of js/test/app.test.js and rename the file to js/src/app-YOUR_FIRSTNAME.test.js
+
+**Note**: Send your output files (via email) to the instructor after the session
 
 ## Requirements: Vending Machine (Change Calculator)
 
