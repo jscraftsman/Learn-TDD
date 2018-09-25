@@ -4,7 +4,7 @@ A simple JavaScript excercise intended to those where are new to TDD.
 
 ## Exercises
 
-## Exercise - Basic Calculator
+## [Beginner] Exercise - Basic Calculator
 
 1. Create a file called app.test.js in js/test/
 2. Import js/test/app.test.js in index.html
@@ -45,7 +45,7 @@ A simple JavaScript excercise intended to those where are new to TDD.
       - Usage: App.divide(1, 2);
       - Returns: 0.5
 
-## Exercise - Vending-Machine (Intermediate)
+## [Intermediate] Exercise - Vending Machine (Change Calculator)
 
 1. Clear all the code in /js/test/app.test.js and /js/src/app.js
 2. Declare a module for "App"
@@ -55,16 +55,26 @@ A simple JavaScript excercise intended to those where are new to TDD.
 4. Create a unit test for each of the following case (you can add your own unit test to break down the problem):
    - "getChange(1,1) should equal [] - an empty array"
    - "getChange(215, 300) should return [50, 20, 10, 5]"
-     - totalPayable = 215 // £2.15
-     - cashPaid = 300 // £3.00
-     - difference = 85 // 85p
-     - change = [50,20,10,5] // 50p, 20p, 10p, 5p
+     ```
+     totalPayable = 215     // £2.15
+     cashPaid = 300         // £3.00
+     difference = 85        // 85p
+     change = [50,20,10,5]  // 50p, 20p, 10p, 5p
+     ```
    - "getChange(486, 600) should equal [100, 10, 2, 2]"
-     - totalPayable = 486 // £4.86
-     - cashPaid = 600 // £6.00
-     - difference = 114 // £1.14
-     - change = [100,10,2,2] // £1, 10p, 2p, 2p
+     ```
+     totalPayable = 486      // £4.86
+     cashPaid = 600          // £6.00
+     difference = 114        // £1.14
+     change = [100,10,2,2]   // £1, 10p, 2p, 2p
+     ```
    - "getChange(12, 400) should return [200, 100, 50, 20, 10, 5, 2, 1]"
+     ```
+     totalPayable = 12                          // £0.12
+     cashPaid = 400                             // £4.00
+     difference = 388                           // £3.88
+     change = [200, 100, 50, 20, 10, 5, 2, 1]   // £2, £1, 50p, 20p, 10p, 5p, 2p, 1p
+     ```
 
 ## Requirements: Vending Machine (Change Calculator)
 
